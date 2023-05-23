@@ -1,5 +1,7 @@
+# -*- coding:utf-8 -*-
 """
-cron: 0 3,11 * * *
+cron: 0 30 0 * * *
+new Env('yingbo_test_single_glados');
 """
 
 import requests ,os,json
