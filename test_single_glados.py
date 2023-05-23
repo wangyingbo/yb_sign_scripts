@@ -1,8 +1,6 @@
 """
-File: test_single_glados.py
-Author: yingbo
-Date: 2023/5/23 10:40
-cron: 0 2,17 * * *
+cron: 23 11 * * *
+new Env('glados单个测试脚本');
 """
 
 import requests ,os,json
