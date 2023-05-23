@@ -26,8 +26,8 @@ def start():
     # Model("mail","sckey","none","cookie")
 
     # 第一个用户
-    user13 = Model("sunjiale","SCT201898TCyLXXaGZfpSgi32FAYpxmj4n","none","_gid=GA1.2.770853758.1679284667; koa:sess=eyJ1c2VySWQiOjEwMTk2NCwiX2V4cGlyZSI6MTcwNTIwNDcxMzQ5NSwiX21heEFnZSI6MjU5MjAwMDAwMDB9; koa:sess.sig=ZVvCC8vxzq_4XzaCCN4A2KXBVBY; _gat_gtag_UA_104464600_2=1; _ga=GA1.1.622885555.1679284666; _ga_CZFVKMNT9J=GS1.1.1679284666.1.1.1679284779.0.0.0")
-    objArray.append(user13)
+    user1 = Model("2532084725_qq","none","WangYingBo","_ga=GA1.2.2034832508.1661233106; _gid=GA1.2.2011244267.1661233106; __cf_bm=5mMiAlJmxjceRifaWPb.Y4kl0b6.Odp_pHM0fTEG3kw-1661233237-0-AV6dxJV4+TNTdoblgAv+eQcUh/CZIEvFxfM7BGXHoRqWALrrYxe/XipSeYi2SqlsmhJGCYgn4VB2FtNFHEF+LjfRXC7MU1F3HVuqBluyB0t1r76FxNKVvu4pwpAhRbHRYQ==; koa:sess=eyJ1c2VySWQiOjk5NTY4LCJfZXhwaXJlIjoxNjg3MTUzMjc1OTI5LCJfbWF4QWdlIjoyNTkyMDAwMDAwMH0=; koa:sess.sig=IUzGQiQMrlHFdLu39ucJ_klKqlY")
+    objArray.append(user1)
 
     # 第二个用户
     user2 = Model("wangyingbo0528_gmail","none","WangYingBo","_ga=GA1.2.1461581697.1631507811; koa:sess=eyJ1c2VySWQiOjEwMTA1OSwiX2V4cGlyZSI6MTY3NjM3NTM0NDQxNCwiX21heEFnZSI6MjU5MjAwMDAwMDB9; koa:sess.sig=XYdWoN0oz5H0YNQ5frAbQtIKBO8; _gid=GA1.2.474745356.1655349911; _dd_s=logs=1&id=dab57835-60de-4f14-b4f2-c5d6dddd704b&created=1655349910870&expire=1655351623431")
@@ -57,11 +57,11 @@ def start():
 
     # 第8个用户，王琳
     user8 = Model("lin2934748395_163","SCT117311T8yUtyqK6aZd4l4sbD8gFGxtk","none","_ga=GA1.2.2001532657.1656513453; _gid=GA1.2.1982075889.1656513453; __cf_bm=bpNBIPBEuCLPHhuYuZDqhEMDkV4BHuhzE8XRb8_0sVE-1656513481-0-AadCptuUQcN0ZdaITONn8Zyo6BRRUav4p6e/EriOZuvA34Ej5UsAuBOHXqzM1Gna43lEluPXaAqozdgjWWcs2Xtr2IepHIdQBRTkBObBdYBmMxtooi8+myCJaQF78VafSA==; koa:sess=eyJ1c2VySWQiOjEyOTMzMywiX2V4cGlyZSI6MTY4MjQzMzUzNDYzMywiX21heEFnZSI6MjU5MjAwMDAwMDB9; koa:sess.sig=oAagfA59mtVXP4reGx0tBIe8ZCA; _gat_gtag_UA_104464600_2=1")
-    objArray.append(user8)
+    # objArray.append(user8)
 
     # 第9个用户，春阳
     user9 = Model("961429020_qq","SCT96095Tq6JopnCx5Scz9j4cKGKq0Zne","none","_ga=GA1.2.719739536.1657279147; _gid=GA1.2.1832563000.1657279147; __cf_bm=DBzoX_Bmqa4lDOx8n00bq1Sbi68BCSr9fZpRcLbDslE-1657279147-0-Ad9OzwKMSQvIaVCgoGMg6KnChNAsg/BfN81XPm1BHh5DIq6NKAqXEbKK+9jLtiu/1TJyP2pYSVhnxqYINRweveRaZqOgm0LHl4+BMTlummWanJvF9ycLTM94rjsKbfY1Yw==; koa:sess=eyJ1c2VySWQiOjExMTMwMSwiX2V4cGlyZSI6MTY4MzE5OTE5NTkxMiwiX21heEFnZSI6MjU5MjAwMDAwMDB9; koa:sess.sig=KH2j6s6a7-9H4_mMLcVg0HnZhrM")
-    objArray.append(user9)
+    # objArray.append(user9)
 
     for obj in objArray:
         checkin = requests.post(url,headers={'cookie': obj.cookie ,'referer': referer,'origin':origin,'user-agent':useragent,'content-type':'application/json;charset=UTF-8'},data=json.dumps(payload))
