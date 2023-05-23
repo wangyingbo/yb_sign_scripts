@@ -1,3 +1,10 @@
+"""
+File: test_single_glados.py
+Author: yingbo
+Date: 2023/5/23 10:40
+cron: 0 2,17 * * *
+"""
+
 import requests ,os,json
 
 # server酱开关，填0不开启(默认)，填2同时开启cookie失效通知和签到成功通知
