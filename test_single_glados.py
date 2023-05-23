@@ -1,6 +1,6 @@
 # -*- coding:utf-8 -*-
 """
-cron: 0 30 0 * * *
+cron: 0 3,11 * * *
 new Env('yingbo_test_single_glados');
 """
 
