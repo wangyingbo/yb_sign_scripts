@@ -1,6 +1,5 @@
 """
-cron: 23 11 * * *
-new Env('glados单个测试脚本');
+cron: 0 3,11 * * *
 """
 
 import requests ,os,json

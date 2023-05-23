@@ -1,3 +1,7 @@
+"""
+cron: 0 5,17 * * *
+"""
+
 import requests ,os,json
 from time import sleep
 
