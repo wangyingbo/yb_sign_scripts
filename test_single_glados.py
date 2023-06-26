@@ -32,7 +32,7 @@ def start():
     # Model("mail","sckey","none","cookie")
 
     # 第一个用户
-    user1 = Model("2532084725_qq","none","WangYingBo","_ga=GA1.2.2034832508.1661233106; _gid=GA1.2.2011244267.1661233106; __cf_bm=5mMiAlJmxjceRifaWPb.Y4kl0b6.Odp_pHM0fTEG3kw-1661233237-0-AV6dxJV4+TNTdoblgAv+eQcUh/CZIEvFxfM7BGXHoRqWALrrYxe/XipSeYi2SqlsmhJGCYgn4VB2FtNFHEF+LjfRXC7MU1F3HVuqBluyB0t1r76FxNKVvu4pwpAhRbHRYQ==; koa:sess=eyJ1c2VySWQiOjk5NTY4LCJfZXhwaXJlIjoxNjg3MTUzMjc1OTI5LCJfbWF4QWdlIjoyNTkyMDAwMDAwMH0=; koa:sess.sig=IUzGQiQMrlHFdLu39ucJ_klKqlY")
+    user1 = Model("2532084725_qq","none","WangYingBo","_gid=GA1.2.1019537881.1687761263; koa:sess=eyJ1c2VySWQiOjk5NTY4LCJfZXhwaXJlIjoxNzEzNjgxMzE5NjYyLCJfbWF4QWdlIjoyNTkyMDAwMDAwMH0=; koa:sess.sig=yLWux3CbSBB6PLLvxbbCLEJG2LY; _ga=GA1.2.636076629.1687761263; _ga_CZFVKMNT9J=GS1.1.1687761262.1.1.1687761328.0.0.0")
     objArray.append(user1)
 
     # 第二个用户
@@ -73,6 +73,8 @@ def start():
         checkin = requests.post(url,headers={'cookie': obj.cookie ,'referer': referer,'origin':origin,'user-agent':useragent,'content-type':'application/json;charset=UTF-8'},data=json.dumps(payload))
         state =  requests.get(url2,headers={'cookie': obj.cookie ,'referer': referer,'origin':origin,'user-agent':useragent})
         # print(res)
+        print('-------------step1-----------')
+        print(checkin.json())
         if 'message' in checkin.text:
             mess = checkin.json()['message']
             time = state.json()['data']['leftDays']
