@@ -190,10 +190,12 @@ def noticeWC(time,user,sever,mess):
     requests.adapters.DEFAULT_RETRIES = 5
     if sever == 'on':
         gladosStr = mess + '，you have ' + time + ' days left'
-        ftStr = 'https://service-d606bcz6-1304203451.usw.apigw.tencentcs.com/release/wecomchan?sendkey=wangyingbo&to_user=' + user + '&msg_type=text&msg=' + gladosStr
+        #ftStr = 'https://service-d606bcz6-1304203451.usw.apigw.tencentcs.com/release/wecomchan?sendkey=wangyingbo&to_user=' + user + '&msg_type=text&msg=' + gladosStr
+        ftStr = 'http://129.148.39.121:5005/wechat?msgtype=1&key=4ours&num=1&title=glados签到&touser=' + user + '&content=' + gladosStr
         requests.get(ftStr)
     else:
-        ftStr = 'https://service-d606bcz6-1304203451.usw.apigw.tencentcs.com/release/wecomchan?sendkey=wangyingbo&to_user=' + user + '&msg_type=text&msg=' + "Notification off"
+        #ftStr = 'https://service-d606bcz6-1304203451.usw.apigw.tencentcs.com/release/wecomchan?sendkey=wangyingbo&to_user=' + user + '&msg_type=text&msg=' + "Notification off"
+        ftStr = 'http://129.148.39.121:5005/wechat?msgtype=1&key=4ours&num=1&title=glados签到&touser=' + user + '&content=' + "notification off"
         requests.get(ftStr)        
         
 
