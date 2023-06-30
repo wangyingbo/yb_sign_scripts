@@ -33,11 +33,11 @@ def start():
 
     # 第一个用户
     user1 = Model("2532084725_qq","none","WangYingBo","_gid=GA1.2.1019537881.1687761263; koa:sess=eyJ1c2VySWQiOjk5NTY4LCJfZXhwaXJlIjoxNzEzNjgxMzE5NjYyLCJfbWF4QWdlIjoyNTkyMDAwMDAwMH0=; koa:sess.sig=yLWux3CbSBB6PLLvxbbCLEJG2LY; _ga=GA1.2.636076629.1687761263; _ga_CZFVKMNT9J=GS1.1.1687761262.1.1.1687761328.0.0.0")
-    objArray.append(user1)
+    # objArray.append(user1)
 
     # 第二个用户
-    user2 = Model("wangyingbo0528_gmail","none","WangYingBo","_ga=GA1.2.1461581697.1631507811; koa:sess=eyJ1c2VySWQiOjEwMTA1OSwiX2V4cGlyZSI6MTY3NjM3NTM0NDQxNCwiX21heEFnZSI6MjU5MjAwMDAwMDB9; koa:sess.sig=XYdWoN0oz5H0YNQ5frAbQtIKBO8; _gid=GA1.2.474745356.1655349911; _dd_s=logs=1&id=dab57835-60de-4f14-b4f2-c5d6dddd704b&created=1655349910870&expire=1655351623431")
-    # objArray.append(user2)
+    user2 = Model("zidonj_163","none","WangYingBo","_ga=GA1.2.394654261.1632475281; _gid=GA1.2.960639332.1665626840; __cf_bm=H9lPCCW0yMJgwWOkk_FsUHUpxVpXTrvsie8EzKniYy0-1665626841-0-AVvrYePXOjkpNhX+VD67KrhhKrLpzk4/Ph5raTw/mx9wBpufMlNpvDCnkSEljlGYMWOkPXJQ2ehbSL/K+RmzjEzkmruWYXgMX1IlXbj7/cnooH2E+mOmBZlrM7DQp+7oeA==; koa:sess=eyJ1c2VySWQiOjEwMTQ4MywiX2V4cGlyZSI6MTY5MTU0Njk5ODA5MiwiX21heEFnZSI6MjU5MjAwMDAwMDB9; koa:sess.sig=p-K271rtzuN5-5UZzXKpaAH-v6M; _gat_gtag_UA_104464600_2=1")
+    objArray.append(user2)
 
     # 第三个用户
     user3 = user11 = Model("yangqq721","SCT195403Tq8LhDCrPmZNJ7PcaSXf5q7SY","none","_ga=GA1.2.1100215316.1675841868; _gid=GA1.2.762050823.1675841868; koa:sess=eyJ1c2VySWQiOjI3MTgwMSwiX2V4cGlyZSI6MTcwMTc2MjAzNDU4OCwiX21heEFnZSI6MjU5MjAwMDAwMDB9; koa:sess.sig=r3jnaw5sTCJpKLZDkUlanoPaXZs")
