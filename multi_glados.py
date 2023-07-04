@@ -30,80 +30,89 @@ def start():
     objArray = []
     # Model("mail","sckey","none","cookie")
 
-    # 第一个用户
-    user1 = Model("2532084725_qq","none","WangYingBo","_gid=GA1.2.1019537881.1687761263; koa:sess=eyJ1c2VySWQiOjk5NTY4LCJfZXhwaXJlIjoxNzEzNjgxMzE5NjYyLCJfbWF4QWdlIjoyNTkyMDAwMDAwMH0=; koa:sess.sig=yLWux3CbSBB6PLLvxbbCLEJG2LY; _ga=GA1.2.636076629.1687761263; _ga_CZFVKMNT9J=GS1.1.1687761262.1.1.1687761328.0.0.0")
-    objArray.append(user1)
+    # 王迎博 qq
+    userWYB1 = Model("2532084725_qq","none","WangYingBo","_gid=GA1.2.1019537881.1687761263; koa:sess=eyJ1c2VySWQiOjk5NTY4LCJfZXhwaXJlIjoxNzEzNjgxMzE5NjYyLCJfbWF4QWdlIjoyNTkyMDAwMDAwMH0=; koa:sess.sig=yLWux3CbSBB6PLLvxbbCLEJG2LY; _ga=GA1.2.636076629.1687761263; _ga_CZFVKMNT9J=GS1.1.1687761262.1.1.1687761328.0.0.0")
+    objArray.append(userWYB1)
 
-    # 第二个用户
-    user2 = Model("wangyingbo0528_gmail","none","WangYingBo","_gid=GA1.2.1269003144.1687761854; koa:sess=eyJ1c2VySWQiOjEwMTA1OSwiX2V4cGlyZSI6MTcxMzY4MTkyNjc4MSwiX21heEFnZSI6MjU5MjAwMDAwMDB9; koa:sess.sig=upUqQ_eNfXpXt6Rvbn8ENQsWbQ8; _gat_gtag_UA_104464600_2=1; _ga=GA1.1.329437914.1687761854; _ga_CZFVKMNT9J=GS1.1.1687761854.1.1.1687761945.0.0.0")
-    objArray.append(user2)
+    # 王迎博 gmail
+    userWYB2 = Model("wangyingbo0528_gmail","none","WangYingBo","_gid=GA1.2.1269003144.1687761854; koa:sess=eyJ1c2VySWQiOjEwMTA1OSwiX2V4cGlyZSI6MTcxMzY4MTkyNjc4MSwiX21heEFnZSI6MjU5MjAwMDAwMDB9; koa:sess.sig=upUqQ_eNfXpXt6Rvbn8ENQsWbQ8; _gat_gtag_UA_104464600_2=1; _ga=GA1.1.329437914.1687761854; _ga_CZFVKMNT9J=GS1.1.1687761854.1.1.1687761945.0.0.0")
+    objArray.append(userWYB2)
 
-    # 第三个用户
-    user3 = Model("wangyingbo528_126","none","WangYingBo","__stripe_mid=b98fb50b-d17e-4fcc-b4a2-6b96c163804dbf5775; koa:sess=eyJ1c2VySWQiOjEwMjE0MywiX2V4cGlyZSI6MTcwMTU4NjE4MTU3OSwiX21heEFnZSI6MjU5MjAwMDAwMDB9; koa:sess.sig=NNwN2BhG3FpZI7qdW8QsA-ytCw4; _gid=GA1.2.1945587119.1687760732; _gat_gtag_UA_104464600_2=1; _ga=GA1.1.1461581697.1631507811; _ga_CZFVKMNT9J=GS1.1.1687760731.50.1.1687761798.0.0.0")
-    objArray.append(user3)
+    # 王迎博 126
+    userWYB3 = Model("wangyingbo528_126","none","WangYingBo","__stripe_mid=b98fb50b-d17e-4fcc-b4a2-6b96c163804dbf5775; koa:sess=eyJ1c2VySWQiOjEwMjE0MywiX2V4cGlyZSI6MTcwMTU4NjE4MTU3OSwiX21heEFnZSI6MjU5MjAwMDAwMDB9; koa:sess.sig=NNwN2BhG3FpZI7qdW8QsA-ytCw4; _gid=GA1.2.1945587119.1687760732; _gat_gtag_UA_104464600_2=1; _ga=GA1.1.1461581697.1631507811; _ga_CZFVKMNT9J=GS1.1.1687760731.50.1.1687761798.0.0.0")
+    objArray.append(userWYB3)
 
-    # 第四个用户 苏鲜明
-    user4 = Model("1360789864_qq","SCT88569Tk3eHEXVRRgMrLENyPdAzQZkB","none","_ga=GA1.2.1649392190.1635315436; _gid=GA1.2.1937226553.1635315436; koa:sess=eyJ1c2VySWQiOjEwNzA1MSwiX2V4cGlyZSI6MTY2MTIzNTUwMjI5NSwiX21heEFnZSI6MjU5MjAwMDAwMDB9; koa:sess.sig=Xm6BHF0ppnO3dn83oQ0K5Q9nZDk")
-    # objArray.append(user4)
-    user_xianming_1 = Model("vipjinggege_163","SCT88569Tk3eHEXVRRgMrLENyPdAzQZkB","none","_ga=GA1.2.1649392190.1635315436; _gid=GA1.2.1047252294.1636701711; koa:sess=eyJ1c2VySWQiOjExMDAwNywiX2V4cGlyZSI6MTY2MjYyMjIwNTk2NiwiX21heEFnZSI6MjU5MjAwMDAwMDB9; koa:sess.sig=jLSJ3qWG6A8TE3lQKTao-uKCDos")
-    # objArray.append(user_xianming_1)
+    # 泽东
+    userJZD = Model("zidonj_163","none","WangYingBo","_ga=GA1.2.394654261.1632475281; _gid=GA1.2.960639332.1665626840; __cf_bm=H9lPCCW0yMJgwWOkk_FsUHUpxVpXTrvsie8EzKniYy0-1665626841-0-AVvrYePXOjkpNhX+VD67KrhhKrLpzk4/Ph5raTw/mx9wBpufMlNpvDCnkSEljlGYMWOkPXJQ2ehbSL/K+RmzjEzkmruWYXgMX1IlXbj7/cnooH2E+mOmBZlrM7DQp+7oeA==; koa:sess=eyJ1c2VySWQiOjEwMTQ4MywiX2V4cGlyZSI6MTY5MTU0Njk5ODA5MiwiX21heEFnZSI6MjU5MjAwMDAwMDB9; koa:sess.sig=p-K271rtzuN5-5UZzXKpaAH-v6M; _gat_gtag_UA_104464600_2=1")
+    objArray.append(userJZD)
 
-    # 第五个用户 秦宏伟
-    user5 = Model("836495953_qq","SCT90572TacfOhqXgkK45cdyAhvCAsrZk","none","_ga=GA1.2.213997131.1635840772; _gid=GA1.2.796273265.1635840772; koa:sess=eyJ1c2VySWQiOjEwODA0MywiX2V4cGlyZSI6MTY2MTc2MDkxMzg2MywiX21heEFnZSI6MjU5MjAwMDAwMDB9; koa:sess.sig=HWCZub4b6lco-XzR5IXZU6xNNbg")
-    # objArray.append(user5)
+    # 王超亚
+    userWCY = Model("wangchaoya","SCT196482T9Ft2zeqpGpJjklX1ZlDoR6vB","WangYingBo","koa:sess=eyJ1c2VySWQiOjI5NjU3NSwiX2V4cGlyZSI6MTcwNDc4MjQyMTUxMiwiX21heEFnZSI6MjU5MjAwMDAwMDB9; koa:sess.sig=o8r4O6J7Bq0hiCIw1qQFDV8ZLVA; _ga=GA1.1.1731673691.1678862379; _ga_CZFVKMNT9J=GS1.1.1678866918.2.0.1678866918.0.0.0; Cookie=enabled; Cookie.sig=lbtpENsrE0x6riM8PFTvoh9nepc")
+    objArray.append(userWCY)
 
-    # 第6个用户 iOS开发群里的
-    user6 = Model("clousnow_vip_qq","SCT91704TVsjHKVHgVG6W8N0HoKrmNQQ1","none","_ga=GA1.2.406575256.1636083487; _gid=GA1.2.1592092324.1636083487; koa:sess=eyJ1c2VySWQiOjEwODU5NywiX2V4cGlyZSI6MTY2MjAwMzUyMDU5MCwiX21heEFnZSI6MjU5MjAwMDAwMDB9; koa:sess.sig=xqflF8MM_k7Cho31MDdzVApTGYc")
-    # objArray.append(user6)
-
-    # 第7个用户，郭瑾
-    user7 = Model("guojin_163","SCT103954TXryuFzBZxCYxq1ZaNGCtZCaU","none","_ga=GA1.2.1146170739.1639538188; _gid=GA1.2.1372910885.1639538188; koa:sess=eyJ1c2VySWQiOjExNzgyNiwiX2V4cGlyZSI6MTY2NTQ1ODI4NjMwMSwiX21heEFnZSI6MjU5MjAwMDAwMDB9; koa:sess.sig=yNBtiP1ct2Bc9MUhv2sBqqTxVB0")
+    # 郭瑾
+    user7 = Model("guojin_163","SCT103954TXryuFzBZxCYxq1ZaNGCtZCaU","WangYingBo","_ga=GA1.2.1146170739.1639538188; _gid=GA1.2.1372910885.1639538188; koa:sess=eyJ1c2VySWQiOjExNzgyNiwiX2V4cGlyZSI6MTY2NTQ1ODI4NjMwMSwiX21heEFnZSI6MjU5MjAwMDAwMDB9; koa:sess.sig=yNBtiP1ct2Bc9MUhv2sBqqTxVB0")
     # objArray.append(user7)
 
-    # 第8个用户，王琳
-    user8 = Model("lin2934748395_163","SCT117311T8yUtyqK6aZd4l4sbD8gFGxtk","none","_ga=GA1.2.2001532657.1656513453; _gid=GA1.2.1982075889.1656513453; __cf_bm=bpNBIPBEuCLPHhuYuZDqhEMDkV4BHuhzE8XRb8_0sVE-1656513481-0-AadCptuUQcN0ZdaITONn8Zyo6BRRUav4p6e/EriOZuvA34Ej5UsAuBOHXqzM1Gna43lEluPXaAqozdgjWWcs2Xtr2IepHIdQBRTkBObBdYBmMxtooi8+myCJaQF78VafSA==; koa:sess=eyJ1c2VySWQiOjEyOTMzMywiX2V4cGlyZSI6MTY4MjQzMzUzNDYzMywiX21heEFnZSI6MjU5MjAwMDAwMDB9; koa:sess.sig=oAagfA59mtVXP4reGx0tBIe8ZCA; _gat_gtag_UA_104464600_2=1")
-    objArray.append(user8)
+    # 王琳
+    user8 = Model("lin2934748395_163","SCT117311T8yUtyqK6aZd4l4sbD8gFGxtk","WangYingBo","_ga=GA1.2.2001532657.1656513453; _gid=GA1.2.1982075889.1656513453; __cf_bm=bpNBIPBEuCLPHhuYuZDqhEMDkV4BHuhzE8XRb8_0sVE-1656513481-0-AadCptuUQcN0ZdaITONn8Zyo6BRRUav4p6e/EriOZuvA34Ej5UsAuBOHXqzM1Gna43lEluPXaAqozdgjWWcs2Xtr2IepHIdQBRTkBObBdYBmMxtooi8+myCJaQF78VafSA==; koa:sess=eyJ1c2VySWQiOjEyOTMzMywiX2V4cGlyZSI6MTY4MjQzMzUzNDYzMywiX21heEFnZSI6MjU5MjAwMDAwMDB9; koa:sess.sig=oAagfA59mtVXP4reGx0tBIe8ZCA; _gat_gtag_UA_104464600_2=1")
+    # objArray.append(user8)
 
-    # 第9个用户，春阳
-    user9 = Model("961429020_qq","SCT96095Tq6JopnCx5Scz9j4cKGKq0Zne","none","_ga=GA1.2.719739536.1657279147; _gid=GA1.2.1832563000.1657279147; __cf_bm=DBzoX_Bmqa4lDOx8n00bq1Sbi68BCSr9fZpRcLbDslE-1657279147-0-Ad9OzwKMSQvIaVCgoGMg6KnChNAsg/BfN81XPm1BHh5DIq6NKAqXEbKK+9jLtiu/1TJyP2pYSVhnxqYINRweveRaZqOgm0LHl4+BMTlummWanJvF9ycLTM94rjsKbfY1Yw==; koa:sess=eyJ1c2VySWQiOjExMTMwMSwiX2V4cGlyZSI6MTY4MzE5OTE5NTkxMiwiX21heEFnZSI6MjU5MjAwMDAwMDB9; koa:sess.sig=KH2j6s6a7-9H4_mMLcVg0HnZhrM")
-    objArray.append(user9)
+    # 杨晓晴
+    userYXQ = Model("yangqq721","SCT195403Tq8LhDCrPmZNJ7PcaSXf5q7SY","WangYingBo","_ga=GA1.2.1100215316.1675841868; _gid=GA1.2.762050823.1675841868; koa:sess=eyJ1c2VySWQiOjI3MTgwMSwiX2V4cGlyZSI6MTcwMTc2MjAzNDU4OCwiX21heEFnZSI6MjU5MjAwMDAwMDB9; koa:sess.sig=r3jnaw5sTCJpKLZDkUlanoPaXZs")
+    # objArray.append(userYXQ)
 
-    # 第10个用户，泽东
-    user10 = Model("zidonj_163","none","WangYingBo","_ga=GA1.2.394654261.1632475281; _gid=GA1.2.960639332.1665626840; __cf_bm=H9lPCCW0yMJgwWOkk_FsUHUpxVpXTrvsie8EzKniYy0-1665626841-0-AVvrYePXOjkpNhX+VD67KrhhKrLpzk4/Ph5raTw/mx9wBpufMlNpvDCnkSEljlGYMWOkPXJQ2ehbSL/K+RmzjEzkmruWYXgMX1IlXbj7/cnooH2E+mOmBZlrM7DQp+7oeA==; koa:sess=eyJ1c2VySWQiOjEwMTQ4MywiX2V4cGlyZSI6MTY5MTU0Njk5ODA5MiwiX21heEFnZSI6MjU5MjAwMDAwMDB9; koa:sess.sig=p-K271rtzuN5-5UZzXKpaAH-v6M; _gat_gtag_UA_104464600_2=1")
-    objArray.append(user10)
-
-    # 第11个用户，晓晴
-    user11 = Model("yangqq721","SCT195403Tq8LhDCrPmZNJ7PcaSXf5q7SY","none","_ga=GA1.2.1100215316.1675841868; _gid=GA1.2.762050823.1675841868; koa:sess=eyJ1c2VySWQiOjI3MTgwMSwiX2V4cGlyZSI6MTcwMTc2MjAzNDU4OCwiX21heEFnZSI6MjU5MjAwMDAwMDB9; koa:sess.sig=r3jnaw5sTCJpKLZDkUlanoPaXZs")
-    objArray.append(user11)
-
-    # 第12个用户，王超亚
-    user12 = Model("wangchaoya","SCT196482T9Ft2zeqpGpJjklX1ZlDoR6vB","none","koa:sess=eyJ1c2VySWQiOjI5NjU3NSwiX2V4cGlyZSI6MTcwNDc4MjQyMTUxMiwiX21heEFnZSI6MjU5MjAwMDAwMDB9; koa:sess.sig=o8r4O6J7Bq0hiCIw1qQFDV8ZLVA; _ga=GA1.1.1731673691.1678862379; _ga_CZFVKMNT9J=GS1.1.1678866918.2.0.1678866918.0.0.0; Cookie=enabled; Cookie.sig=lbtpENsrE0x6riM8PFTvoh9nepc")
-    objArray.append(user12)
-
-    # 第13个用户，孙嘉乐
-    user13 = Model("sunjiale","SCT201898TCyLXXaGZfpSgi32FAYpxmj4n","none","_gid=GA1.2.770853758.1679284667; koa:sess=eyJ1c2VySWQiOjEwMTk2NCwiX2V4cGlyZSI6MTcwNTIwNDcxMzQ5NSwiX21heEFnZSI6MjU5MjAwMDAwMDB9; koa:sess.sig=ZVvCC8vxzq_4XzaCCN4A2KXBVBY; _gat_gtag_UA_104464600_2=1; _ga=GA1.1.622885555.1679284666; _ga_CZFVKMNT9J=GS1.1.1679284666.1.1.1679284779.0.0.0")
-    objArray.append(user13)
+    # 孙嘉乐
+    userSJL = Model("sunjiale","SCT201898TCyLXXaGZfpSgi32FAYpxmj4n","WangYingBo","_gid=GA1.2.770853758.1679284667; koa:sess=eyJ1c2VySWQiOjEwMTk2NCwiX2V4cGlyZSI6MTcwNTIwNDcxMzQ5NSwiX21heEFnZSI6MjU5MjAwMDAwMDB9; koa:sess.sig=ZVvCC8vxzq_4XzaCCN4A2KXBVBY; _gat_gtag_UA_104464600_2=1; _ga=GA1.1.622885555.1679284666; _ga_CZFVKMNT9J=GS1.1.1679284666.1.1.1679284779.0.0.0")
+    # objArray.append(userSJL)
     
 
     for obj in objArray:
-        sleep(1)
+        sleep(0.5)
         checkin = requests.post(url,headers={'cookie': obj.cookie ,'referer': referer,'origin':origin,'user-agent':useragent,'content-type':'application/json;charset=UTF-8'},data=json.dumps(payload))
         state =  requests.get(url2,headers={'cookie': obj.cookie ,'referer': referer,'origin':origin,'user-agent':useragent})
         # print(res)
+        print('-------------step1-----------')
+        print(checkin.json())
+        print(state.json())
+        print('\n')
         if 'message' in checkin.text:
-            mess = checkin.json()['message']
-            time = state.json()['data']['leftDays']
-            time = time.split('.')[0]
-            print("---------------------**---------------------")
-            print(time)
-            print(mess)
-            messStr = obj.name + ', ' + mess
             sckey = obj.sckey
             wcuser = obj.wcuser
+
+            mess = checkin.json()['message']
+            code = checkin.json()['code']
+            if code<0:
+                noticeWC('-999',wcuser,sever,obj.name+str(code)+mess)
+                continue
+                
+            stateObj = state.json()
+            if 'data' in stateObj:
+                print('')
+            else:
+                noticeWC('-999',wcuser,sever,'response不存在data')
+                continue
+
+            responseData = stateObj['data']
+            if 'leftDays' in responseData:
+                print('')
+            else:
+                noticeWC('-999',wcuser,sever,'data不存在leftDays')
+                continue
+
+            leftDays = responseData['leftDays']
+            if isinstance(leftDays,int):
+                time = str(leftDays)
+            elif isinstance(leftDays,str):
+                time = leftDays.split('.')[0]
+            print("---------------------**---------------------")
+            print('剩余时长：' + time)
+            print(mess)
+            messStr = obj.name + ', ' + mess
             if len(sckey) > 0:
-                notice(time,obj.sckey,sever,messStr)
+                notice(time,sckey,sever,messStr)
             if len(wcuser) > 0:
-                noticeWC(time,obj.wcuser,sever,messStr)
+                noticeWC(time,wcuser,sever,messStr)
 
     # -----------------------server酱----------------------------------
     dict = {}
