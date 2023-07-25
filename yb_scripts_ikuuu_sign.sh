@@ -3,8 +3,9 @@
 DOMAIN=""
 USERNAME=""
 PASSWD=""
+WEPUSH="yes"
 
-while getopts "a:u:p:" opt; do
+while getopts "a:u:p:w:" opt; do
     case $opt in
         a)
             DOMAIN=${OPTARG}
@@ -16,6 +17,10 @@ while getopts "a:u:p:" opt; do
         p)
             echo -e "选项p的参数是${OPTARG}"
             PASSWD=${OPTARG}
+            ;;
+        w)
+            echo -e "选项w的参数是${OPTARG}"
+            WEPUSH=${OPTARG}
             ;;
         v)
             echo -e "version:1.0"
@@ -107,8 +112,11 @@ echo $wcdesp
 
 wecomcontent="{\"msgtype\": \"1\",\"key\": \"4ours\",\"num\": \"1\",\"touser\": \"WangYingBo\",\"title\": \"ikuuu签到\",\"content\": \"${wcdesp}\"}"
 echo $wecomcontent
-curl -H "Content-Type:application/json" -X POST --data "${wecomcontent}" http://129.148.39.121:5005/wechat
+
+if [[ "${WEPUSH}" == "yes" ]]; then
+    # echo "需要推送"
+    curl -H "Content-Type:application/json" -X POST --data "${wecomcontent}" http://129.148.39.121:5005/wechat
+fi
 
 push_text="[${date}] ${push_status}"
-
 echo ${push_text}
