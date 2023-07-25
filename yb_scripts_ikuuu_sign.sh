@@ -95,6 +95,9 @@ else
     fi
 fi
 
+push_text="[${date}] ${push_status}"
+echo ${push_text}
+
 login_text=`echo $login_text | sed 's/\"//g'`
 checkin_text=`echo $checkin_text | sed 's/\"//g'`
 domain_text=`echo $DOMAIN | sed 's/\"//g'`
@@ -118,5 +121,3 @@ if [[ "${WEPUSH}" == "yes" ]]; then
     curl -H "Content-Type:application/json" -X POST --data "${wecomcontent}" http://129.148.39.121:5005/wechat
 fi
 
-push_text="[${date}] ${push_status}"
-echo ${push_text}
