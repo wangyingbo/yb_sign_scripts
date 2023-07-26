@@ -1,6 +1,6 @@
 #!/bin/bash
 
-DOMAIN=""
+DOMAIN="https://ikuuu.uk"
 USERNAME=""
 PASSWD=""
 WEPUSH="yes"
