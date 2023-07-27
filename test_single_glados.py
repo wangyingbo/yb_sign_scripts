@@ -24,7 +24,7 @@ def start():
     referer = "https://glados.rocks/console/checkin"
     useragent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36"
     payload={
-        'token': 'glados.network'
+        'token': 'glados.one'
     }
         
     # -----------------------通过对象创建----------------------------------
@@ -33,14 +33,14 @@ def start():
 
     # 第一个用户
     user1 = Model("2532084725_qq","none","WangYingBo","_gid=GA1.2.1019537881.1687761263; koa:sess=eyJ1c2VySWQiOjk5NTY4LCJfZXhwaXJlIjoxNzEzNjgxMzE5NjYyLCJfbWF4QWdlIjoyNTkyMDAwMDAwMH0=; koa:sess.sig=yLWux3CbSBB6PLLvxbbCLEJG2LY; _ga=GA1.2.636076629.1687761263; _ga_CZFVKMNT9J=GS1.1.1687761262.1.1.1687761328.0.0.0")
-    # objArray.append(user1)
+    objArray.append(user1)
 
     # 第二个用户
     user2 = Model("zidonj_163","none","WangYingBo","_ga=GA1.2.394654261.1632475281; _gid=GA1.2.960639332.1665626840; __cf_bm=H9lPCCW0yMJgwWOkk_FsUHUpxVpXTrvsie8EzKniYy0-1665626841-0-AVvrYePXOjkpNhX+VD67KrhhKrLpzk4/Ph5raTw/mx9wBpufMlNpvDCnkSEljlGYMWOkPXJQ2ehbSL/K+RmzjEzkmruWYXgMX1IlXbj7/cnooH2E+mOmBZlrM7DQp+7oeA==; koa:sess=eyJ1c2VySWQiOjEwMTQ4MywiX2V4cGlyZSI6MTY5MTU0Njk5ODA5MiwiX21heEFnZSI6MjU5MjAwMDAwMDB9; koa:sess.sig=p-K271rtzuN5-5UZzXKpaAH-v6M; _gat_gtag_UA_104464600_2=1")
-    objArray.append(user2)
+    # objArray.append(user2)
 
     for obj in objArray:
-        sleep(0.5)
+        # sleep(0.5)
         checkin = requests.post(url,headers={'cookie': obj.cookie ,'referer': referer,'origin':origin,'user-agent':useragent,'content-type':'application/json;charset=UTF-8'},data=json.dumps(payload))
         state =  requests.get(url2,headers={'cookie': obj.cookie ,'referer': referer,'origin':origin,'user-agent':useragent})
         # print(res)
