@@ -28,7 +28,8 @@ while getopts "a:u:p:w:" opt; do
             echo -e "version:1.0"
             ;;
         \?)
-            usage
+            echo -e "miss params!!!"
+            exit 1
             ;;
 
     esac
