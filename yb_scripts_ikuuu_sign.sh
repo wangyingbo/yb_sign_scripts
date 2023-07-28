@@ -1,4 +1,6 @@
 #!/bin/bash
+# author: wangyingbo
+# date: 2022-11-28
 
 DOMAIN="https://ikuuu.uk"
 USERNAME=""
