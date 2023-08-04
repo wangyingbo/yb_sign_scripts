@@ -48,7 +48,7 @@ def start():
 
     # 王超亚
     userWCY = Model("wangchaoya","SCT196482T9Ft2zeqpGpJjklX1ZlDoR6vB","WangYingBo","koa:sess=eyJ1c2VySWQiOjI5NjU3NSwiX2V4cGlyZSI6MTcwNDc4MjQyMTUxMiwiX21heEFnZSI6MjU5MjAwMDAwMDB9; koa:sess.sig=o8r4O6J7Bq0hiCIw1qQFDV8ZLVA; _ga=GA1.1.1731673691.1678862379; _ga_CZFVKMNT9J=GS1.1.1678866918.2.0.1678866918.0.0.0; Cookie=enabled; Cookie.sig=lbtpENsrE0x6riM8PFTvoh9nepc")
-    objArray.append(userWCY)
+    # objArray.append(userWCY)
 
     # 郭瑾
     user7 = Model("guojin_163","SCT103954TXryuFzBZxCYxq1ZaNGCtZCaU","WangYingBo","_ga=GA1.2.1146170739.1639538188; _gid=GA1.2.1372910885.1639538188; koa:sess=eyJ1c2VySWQiOjExNzgyNiwiX2V4cGlyZSI6MTY2NTQ1ODI4NjMwMSwiX21heEFnZSI6MjU5MjAwMDAwMDB9; koa:sess.sig=yNBtiP1ct2Bc9MUhv2sBqqTxVB0")
