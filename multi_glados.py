@@ -46,6 +46,14 @@ def start():
     userJZD = Model("zidonj_163","none","WangYingBo","_ga=GA1.2.394654261.1632475281; _gid=GA1.2.960639332.1665626840; __cf_bm=H9lPCCW0yMJgwWOkk_FsUHUpxVpXTrvsie8EzKniYy0-1665626841-0-AVvrYePXOjkpNhX+VD67KrhhKrLpzk4/Ph5raTw/mx9wBpufMlNpvDCnkSEljlGYMWOkPXJQ2ehbSL/K+RmzjEzkmruWYXgMX1IlXbj7/cnooH2E+mOmBZlrM7DQp+7oeA==; koa:sess=eyJ1c2VySWQiOjEwMTQ4MywiX2V4cGlyZSI6MTY5MTU0Njk5ODA5MiwiX21heEFnZSI6MjU5MjAwMDAwMDB9; koa:sess.sig=p-K271rtzuN5-5UZzXKpaAH-v6M; _gat_gtag_UA_104464600_2=1")
     objArray.append(userJZD)
 
+    # 魏总
+    userWW = Model("weiwei","none","WangYingBo","koa:sess=eyJ1c2VySWQiOjEwMTk1NywiX2V4cGlyZSI6MTcxNjExMDE4NjQyNywiX21heEFnZSI6MjU5MjAwMDAwMDB9; koa:sess.sig=Np1alio13K3we9aTE9s1baBSjkc; _gid=GA1.2.2089999885.1691552638; _gat_gtag_UA_104464600_2=1; _ga_CZFVKMNT9J=GS1.1.1691552637.3.1.1691552664.0.0.0; _ga=GA1.1.446287822.1690190166")
+    objArray.append(userWW)
+
+    # 孙嘉乐
+    userSJL = Model("sunjiale","SCT201898TCyLXXaGZfpSgi32FAYpxmj4n","WangYingBo","koa:sess=eyJ1c2VySWQiOjEwMTk2NCwiX2V4cGlyZSI6MTcwNTIwNDcxMzQ5NSwiX21heEFnZSI6MjU5MjAwMDAwMDB9; koa:sess.sig=ZVvCC8vxzq_4XzaCCN4A2KXBVBY; _gid=GA1.2.2031750238.1691552490; Cookie=enabled; Cookie.sig=lbtpENsrE0x6riM8PFTvoh9nepc; _gat_gtag_UA_104464600_2=1; _ga=GA1.1.622885555.1679284666; _ga_CZFVKMNT9J=GS1.1.1691552490.2.1.1691552965.0.0.0")
+    objArray.append(userSJL)
+
     # 王超亚
     userWCY = Model("wangchaoya","SCT196482T9Ft2zeqpGpJjklX1ZlDoR6vB","WangYingBo","koa:sess=eyJ1c2VySWQiOjI5NjU3NSwiX2V4cGlyZSI6MTcwNDc4MjQyMTUxMiwiX21heEFnZSI6MjU5MjAwMDAwMDB9; koa:sess.sig=o8r4O6J7Bq0hiCIw1qQFDV8ZLVA; _ga=GA1.1.1731673691.1678862379; _ga_CZFVKMNT9J=GS1.1.1678866918.2.0.1678866918.0.0.0; Cookie=enabled; Cookie.sig=lbtpENsrE0x6riM8PFTvoh9nepc")
     # objArray.append(userWCY)
@@ -61,10 +69,6 @@ def start():
     # 杨晓晴
     userYXQ = Model("yangqq721","SCT195403Tq8LhDCrPmZNJ7PcaSXf5q7SY","WangYingBo","_ga=GA1.2.1100215316.1675841868; _gid=GA1.2.762050823.1675841868; koa:sess=eyJ1c2VySWQiOjI3MTgwMSwiX2V4cGlyZSI6MTcwMTc2MjAzNDU4OCwiX21heEFnZSI6MjU5MjAwMDAwMDB9; koa:sess.sig=r3jnaw5sTCJpKLZDkUlanoPaXZs")
     # objArray.append(userYXQ)
-
-    # 孙嘉乐
-    userSJL = Model("sunjiale","SCT201898TCyLXXaGZfpSgi32FAYpxmj4n","WangYingBo","_gid=GA1.2.770853758.1679284667; koa:sess=eyJ1c2VySWQiOjEwMTk2NCwiX2V4cGlyZSI6MTcwNTIwNDcxMzQ5NSwiX21heEFnZSI6MjU5MjAwMDAwMDB9; koa:sess.sig=ZVvCC8vxzq_4XzaCCN4A2KXBVBY; _gat_gtag_UA_104464600_2=1; _ga=GA1.1.622885555.1679284666; _ga_CZFVKMNT9J=GS1.1.1679284666.1.1.1679284779.0.0.0")
-    # objArray.append(userSJL)
     
 
     for obj in objArray:
