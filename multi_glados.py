@@ -43,7 +43,7 @@ def start():
     objArray.append(userWYB3)
 
     # 泽东
-    userJZD = Model("zidonj_163","none","WangYingBo","_ga=GA1.2.394654261.1632475281; _gid=GA1.2.960639332.1665626840; __cf_bm=H9lPCCW0yMJgwWOkk_FsUHUpxVpXTrvsie8EzKniYy0-1665626841-0-AVvrYePXOjkpNhX+VD67KrhhKrLpzk4/Ph5raTw/mx9wBpufMlNpvDCnkSEljlGYMWOkPXJQ2ehbSL/K+RmzjEzkmruWYXgMX1IlXbj7/cnooH2E+mOmBZlrM7DQp+7oeA==; koa:sess=eyJ1c2VySWQiOjEwMTQ4MywiX2V4cGlyZSI6MTY5MTU0Njk5ODA5MiwiX21heEFnZSI6MjU5MjAwMDAwMDB9; koa:sess.sig=p-K271rtzuN5-5UZzXKpaAH-v6M; _gat_gtag_UA_104464600_2=1")
+    userJZD = Model("zidonj_163","none","WangYingBo","koa:sess=eyJ1c2VySWQiOjEwMTQ4MywiX2V4cGlyZSI6MTcxNTQ3NzgwMDgyOCwiX21heEFnZSI6MjU5MjAwMDAwMDB9; koa:sess.sig=M541BbC3-eC3hd-GoEpabQxlHro; _gid=GA1.2.1506754630.1691632687; _ga=GA1.2.1637175848.1689557741; _ga_CZFVKMNT9J=GS1.1.1691632687.3.1.1691633378.0.0.0")
     objArray.append(userJZD)
 
     # 魏总

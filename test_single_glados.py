@@ -32,7 +32,7 @@ def start():
     # Model("mail","sckey","none","cookie")
 
     # 第一个用户
-    user1 = Model("weiwei","none","WangYingBo","koa:sess=eyJ1c2VySWQiOjEwMTk1NywiX2V4cGlyZSI6MTcxNjExMDE4NjQyNywiX21heEFnZSI6MjU5MjAwMDAwMDB9; koa:sess.sig=Np1alio13K3we9aTE9s1baBSjkc; _gid=GA1.2.2089999885.1691552638; _gat_gtag_UA_104464600_2=1; _ga_CZFVKMNT9J=GS1.1.1691552637.3.1.1691552664.0.0.0; _ga=GA1.1.446287822.1690190166")
+    user1 = Model("zedong","none","WangYingBo","koa:sess=eyJ1c2VySWQiOjEwMTQ4MywiX2V4cGlyZSI6MTcxNTQ3NzgwMDgyOCwiX21heEFnZSI6MjU5MjAwMDAwMDB9; koa:sess.sig=M541BbC3-eC3hd-GoEpabQxlHro; _gid=GA1.2.1506754630.1691632687; _ga=GA1.2.1637175848.1689557741; _ga_CZFVKMNT9J=GS1.1.1691632687.3.1.1691633378.0.0.0")
     objArray.append(user1)
 
     # 第二个用户
