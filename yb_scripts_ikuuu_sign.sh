@@ -4,10 +4,11 @@
 
 DOMAIN="https://ikuuu.uk"
 USERNAME=""
+NICKNAME=""
 PASSWD=""
 WEPUSH="yes"
 
-while getopts "a:u:p:w:" opt; do
+while getopts "a:u:p:w:n::" opt; do
     case $opt in
         a)
             DOMAIN=${OPTARG}
@@ -24,6 +25,10 @@ while getopts "a:u:p:w:" opt; do
             echo -e "选项w的参数是${OPTARG}"
             WEPUSH=${OPTARG}
             ;;
+        n)
+            echo -e "选项n的参数是${OPTARG}"
+            NICKNAME=${OPTARG}
+            ;;
         v)
             echo -e "version:1.0"
             ;;
@@ -37,6 +42,7 @@ done
 
 echo "域名：${DOMAIN}"
 echo "账号：${USERNAME}"
+echo "昵称：${NICKNAME}"
 echo "密码：${PASSWD}"
 
 
@@ -109,7 +115,7 @@ echo $login_text
 echo $checkin_text
 # wcdesp="站点: ${DOMAIN}"+$'\n\n'+"用户名: ${USERNAME}"+$'\n\n'+"${login_text}"+$'\n\n'+"${checkin_text}"+$'\n\n'
 # wcdesp="站点: ${DOMAIN}"$'\n\n'"用户名: ${USERNAME}"$'\n\n'${login_text}$'\n\n'${checkin_text}$'\n\n'
-wcdesp="\n站点: ${domain_text}\n\n用户名: ${username_text}\n\n${login_text}\n\n${checkin_text}\n"
+wcdesp="\n站点: ${domain_text}\n\n昵称: ${NICKNAME}\n\n用户名: ${username_text}\n\n${login_text}\n\n${checkin_text}\n"
 # wcdesp="签到成功了"
 # 企业微信推送给微信
 echo "企业微信开始推送了"
