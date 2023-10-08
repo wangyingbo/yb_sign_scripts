@@ -195,7 +195,8 @@ if __name__ == "__main__":
             print(e)
             time.sleep(60)
 
-    # print('message:', message)
+    print('message:', message_to_push)
     send("微博签到结果:", message_to_push)
 
     # https://github.com/kuku3863/sign_weibo_chaohua
+    # 我 -> 关注 -> 超话tab -> 超话 查看全部 -> 拷贝get请求的cardlist接口
