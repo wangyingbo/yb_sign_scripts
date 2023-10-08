@@ -197,3 +197,5 @@ if __name__ == "__main__":
 
     # print('message:', message)
     send("微博签到结果:", message_to_push)
+
+    # https://github.com/kuku3863/sign_weibo_chaohua
