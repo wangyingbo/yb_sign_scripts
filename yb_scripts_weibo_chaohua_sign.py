@@ -174,7 +174,8 @@ if __name__ == "__main__":
                 )
                 # 如果没有 sign_action 不为空的主题，则退出外部循环
                 if not has_sign_action:
-                    message_to_push = "没有 sign_action 不为空的主题"
+                    if len(topics) > 0:
+                        message_to_push = "没有 sign_action 不为空的主题"
                     break
                 # 原始的外部循环，用于格式化输出
                 for topic in topics:
@@ -189,7 +190,7 @@ if __name__ == "__main__":
                         message = sign_topic(title, action, params, headers)
                         message_to_push += message  # 将每个主题的消息追加到最终要推送的消息中
 
-                # print(output)
+                print(output)
 
             succeeded = True
         except Exception as e:
