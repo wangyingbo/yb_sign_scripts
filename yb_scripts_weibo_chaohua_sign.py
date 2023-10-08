@@ -195,6 +195,12 @@ if __name__ == "__main__":
             print(e)
             time.sleep(60)
 
+    if len(message_to_push) == 0:
+        print '字符串message_to_push为空串'
+        message_to_push = "message_to_push 为空，出错了"
+    else:
+        print 'message_to_push不为空'
+    
     print('message:', message_to_push)
     send("微博签到结果:", message_to_push)
 
