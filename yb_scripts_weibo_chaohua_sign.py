@@ -174,6 +174,7 @@ if __name__ == "__main__":
                 )
                 # 如果没有 sign_action 不为空的主题，则退出外部循环
                 if not has_sign_action:
+                    message_to_push = "没有 sign_action 不为空的主题"
                     break
                 # 原始的外部循环，用于格式化输出
                 for topic in topics:
