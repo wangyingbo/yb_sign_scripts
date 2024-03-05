@@ -2,7 +2,7 @@
 # author: wangyingbo
 # date: 2022-11-28
 
-DOMAIN="https://ikuuu.me"
+DOMAIN="https://ikuuu.pw"
 USERNAME=""
 NICKNAME=""
 PASSWD=""
