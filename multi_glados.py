@@ -47,7 +47,7 @@ def start():
     objArray.append(userJZD)
 
     # 魏总
-    userWW = Model("weiwei","none","WangYingBo","koa:sess=eyJ1c2VySWQiOjEwMTk1NywiX2V4cGlyZSI6MTcxNjExMDE4NjQyNywiX21heEFnZSI6MjU5MjAwMDAwMDB9; koa:sess.sig=Np1alio13K3we9aTE9s1baBSjkc; _gid=GA1.2.2089999885.1691552638; _gat_gtag_UA_104464600_2=1; _ga_CZFVKMNT9J=GS1.1.1691552637.3.1.1691552664.0.0.0; _ga=GA1.1.446287822.1690190166")
+    userWW = Model("weiwei","none","WangYingBo","koa:sess=eyJ1c2VySWQiOjEwMTk1NywiX2V4cGlyZSI6MTc0NTkwODI3MzYwNSwiX21heEFnZSI6MjU5MjAwMDAwMDB9; koa:sess.sig=5Sbh3vczLPYhEEDLHm1i0wsvQfo; _gid=GA1.2.1598444316.1719988274; _ga=GA1.1.1149206999.1704702146; _ga_CZFVKMNT9J=GS1.1.1719988273.11.1.1719988274.0.0.0")
     objArray.append(userWW)
 
     # 孙嘉乐
