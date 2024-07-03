@@ -32,12 +32,12 @@ def start():
     # Model("mail","sckey","none","cookie")
 
     # 第一个用户
-    user1 = Model("zedong","none","WangYingBo","koa:sess=eyJ1c2VySWQiOjEwMTQ4MywiX2V4cGlyZSI6MTcxNTQ3NzgwMDgyOCwiX21heEFnZSI6MjU5MjAwMDAwMDB9; koa:sess.sig=M541BbC3-eC3hd-GoEpabQxlHro; _gid=GA1.2.1506754630.1691632687; _ga=GA1.2.1637175848.1689557741; _ga_CZFVKMNT9J=GS1.1.1691632687.3.1.1691633378.0.0.0")
-    # objArray.append(user1)
+    user1 = Model("zedong","none","WangYingBo","koa:sess=eyJ1c2VySWQiOjEwMTQ4MywiX2V4cGlyZSI6MTczNjI2MDUwNzA1NywiX21heEFnZSI6MjU5MjAwMDAwMDB9; koa:sess.sig=htVr4fkVunlu9FXIWR2A8Vha8IU; _ga=GA1.2.1552374126.1710340470; _ga_CZFVKMNT9J=GS1.1.1715160572.2.1.1715160658.0.0.0")
+    objArray.append(user1)
 
     # 魏总
     userWW = Model("weiwei","none","WangYingBo","koa:sess=eyJ1c2VySWQiOjEwMTk1NywiX2V4cGlyZSI6MTc0NTkwODI3MzYwNSwiX21heEFnZSI6MjU5MjAwMDAwMDB9; koa:sess.sig=5Sbh3vczLPYhEEDLHm1i0wsvQfo; _gid=GA1.2.1598444316.1719988274; _ga=GA1.1.1149206999.1704702146; _ga_CZFVKMNT9J=GS1.1.1719988273.11.1.1719988274.0.0.0")
-    objArray.append(userWW)
+    # objArray.append(userWW)
 
     # 第二个用户
     user2 = Model("zidonj_163","none","WangYingBo","_ga=GA1.2.394654261.1632475281; _gid=GA1.2.960639332.1665626840; __cf_bm=H9lPCCW0yMJgwWOkk_FsUHUpxVpXTrvsie8EzKniYy0-1665626841-0-AVvrYePXOjkpNhX+VD67KrhhKrLpzk4/Ph5raTw/mx9wBpufMlNpvDCnkSEljlGYMWOkPXJQ2ehbSL/K+RmzjEzkmruWYXgMX1IlXbj7/cnooH2E+mOmBZlrM7DQp+7oeA==; koa:sess=eyJ1c2VySWQiOjEwMTQ4MywiX2V4cGlyZSI6MTY5MTU0Njk5ODA5MiwiX21heEFnZSI6MjU5MjAwMDAwMDB9; koa:sess.sig=p-K271rtzuN5-5UZzXKpaAH-v6M; _gat_gtag_UA_104464600_2=1")
