@@ -28,7 +28,7 @@ def start():
         
     # -----------------------通过对象创建----------------------------------
     objArray = []
-    # Model("mail","sckey","none","cookie")
+    # Model("mail","sckey","wechatUserId","cookie")
 
     # 泽东
     userJZD = Model("zidonj_163","none","WangYingBo","koa:sess=eyJ1c2VySWQiOjEwMTQ4MywiX2V4cGlyZSI6MTczNjI2MDUwNzA1NywiX21heEFnZSI6MjU5MjAwMDAwMDB9; koa:sess.sig=htVr4fkVunlu9FXIWR2A8Vha8IU; _ga=GA1.2.1552374126.1710340470; _ga_CZFVKMNT9J=GS1.1.1715160572.2.1.1715160658.0.0.0")
