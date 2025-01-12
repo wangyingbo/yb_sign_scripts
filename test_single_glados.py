@@ -32,11 +32,11 @@ def start():
     # Model("mail","sckey","none","cookie")
 
     # 第一个用户
-    user1 = Model("zedong","none","WangYingBo","koa:sess=eyJ1c2VySWQiOjEwMTQ4MywiX2V4cGlyZSI6MTczNjI2MDUwNzA1NywiX21heEFnZSI6MjU5MjAwMDAwMDB9; koa:sess.sig=htVr4fkVunlu9FXIWR2A8Vha8IU; _ga=GA1.2.1552374126.1710340470; _ga_CZFVKMNT9J=GS1.1.1715160572.2.1.1715160658.0.0.0")
+    user1 = Model("zedong","none","WangYingBo","__stripe_mid=9a7bd424-66ba-4812-900c-a871fccb640e0dc722; koa:sess=eyJ1c2VySWQiOjEwMTQ4MywiX2V4cGlyZSI6MTc1NjI1NjUyMDYwNSwiX21heEFnZSI6MjU5MjAwMDAwMDB9; koa:sess.sig=opTl26E1s1Xi7w4zaJkfwsCVa9A; _ga=GA1.2.1926169907.1729136487; _ga_CZFVKMNT9J=GS1.1.1731562164.4.0.1731562166.0.0.0")
     objArray.append(user1)
 
     # 魏总
-    userWW = Model("weiwei","none","WangYingBo","koa:sess=eyJ1c2VySWQiOjEwMTk1NywiX2V4cGlyZSI6MTc0NTkwODI3MzYwNSwiX21heEFnZSI6MjU5MjAwMDAwMDB9; koa:sess.sig=5Sbh3vczLPYhEEDLHm1i0wsvQfo; _gid=GA1.2.1598444316.1719988274; _ga=GA1.1.1149206999.1704702146; _ga_CZFVKMNT9J=GS1.1.1719988273.11.1.1719988274.0.0.0")
+    userWW = Model("weiwei","none","WangYingBo","")
     # objArray.append(userWW)
 
     # 第二个用户
