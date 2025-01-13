@@ -24,7 +24,7 @@ for account in $(jq -c '.[]' "$json_file"); do
 
     MESSAGE=''
     # 执行远程命令并将输出存储在变量中
-    OUTPUT=$(sshpass -p 'hhO!rD@J0n*h1VqQy7MI' ssh -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null -tt wybgit@panel14.serv00.com "ps -A; echo $(date) >> auto_sign_in_log.txt; exit" 2>&1)
+    OUTPUT=$(sshpass -p ${password} ssh -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null -tt ${username}@${panel} "ps -A; echo $(date) >> auto_sign_in_log.txt; exit" 2>&1)
     if [ $? -ne 0 ]; then
         echo "执行命令失败: $OUTPUT"
         MESSAGE=$OUTPUT
