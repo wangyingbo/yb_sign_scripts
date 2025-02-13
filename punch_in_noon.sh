@@ -7,4 +7,4 @@
 
 
 # 王迎博
-curl "https://api.day.app/mg6Tt9Kc4ygnEcULyApRTG/请记得打卡?url=dingtalk://dingtalkclient/page/link"
+curl "https://api.day.app/mg6Tt9Kc4ygnEcULyApRTG/请记得打卡?sound=minuet&url=dingtalk://dingtalkclient/page/link"
