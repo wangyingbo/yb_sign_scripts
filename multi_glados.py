@@ -37,7 +37,10 @@ def start():
     # 魏总
     userWW = Model("weiwei","none","WangYingBo","koa:sess=eyJ1c2VySWQiOjEwMTk1NywiX2V4cGlyZSI6MTc0NTkwODI3MzYwNSwiX21heEFnZSI6MjU5MjAwMDAwMDB9; koa:sess.sig=5Sbh3vczLPYhEEDLHm1i0wsvQfo; _gid=GA1.2.1598444316.1719988274; _ga=GA1.1.1149206999.1704702146; _ga_CZFVKMNT9J=GS1.1.1719988273.11.1.1719988274.0.0.0")
     objArray.append(userWW)
-    
+
+    # yingbo_126
+    userYB126 = Model("yingbo_126","none","WangYingBo","koa:sess=eyJ1c2VySWQiOjEwMjE0MywiX2V4cGlyZSI6MTc2NzE0MjIxMjQyMSwiX21heEFnZSI6MjU5MjAwMDAwMDB9; koa:sess.sig=1lwozExu1dcu-jVqXPMk3I33P34")
+    objArray.append(userYB126)
 
     for obj in objArray:
         sleep(0.5)
