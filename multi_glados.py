@@ -43,7 +43,7 @@ def start():
     objArray.append(userYB126)
 
     for obj in objArray:
-        sleep(3)
+        sleep(1)
         checkin = requests.post(url,headers={'cookie': obj.cookie ,'referer': referer,'origin':origin,'user-agent':useragent,'content-type':'application/json;charset=UTF-8'},data=json.dumps(payload))
         state =  requests.get(url2,headers={'cookie': obj.cookie ,'referer': referer,'origin':origin,'user-agent':useragent})
         # print(res)
@@ -88,6 +88,7 @@ def start():
                 notice(time,sckey,sever,messStr)
             if len(wcuser) > 0:
                 noticeWC(time,wcuser,sever,messStr)
+        sleep(10)
 
     # -----------------------server酱----------------------------------
     dict = {}
