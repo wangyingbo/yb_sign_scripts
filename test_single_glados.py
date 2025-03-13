@@ -32,16 +32,12 @@ def start():
     # Model("mail","sckey","none","cookie")
 
     # 第一个用户
-    user1 = Model("zedong","none","WangYingBo","__stripe_mid=9a7bd424-66ba-4812-900c-a871fccb640e0dc722; koa:sess=eyJ1c2VySWQiOjEwMTQ4MywiX2V4cGlyZSI6MTc1NjI1NjUyMDYwNSwiX21heEFnZSI6MjU5MjAwMDAwMDB9; koa:sess.sig=opTl26E1s1Xi7w4zaJkfwsCVa9A; _ga=GA1.2.1926169907.1729136487; _ga_CZFVKMNT9J=GS1.1.1731562164.4.0.1731562166.0.0.0")
-    objArray.append(user1)
+    userZJD = Model("zedong","none","WangYingBo","__stripe_mid=9a7bd424-66ba-4812-900c-a871fccb640e0dc722; koa:sess=eyJ1c2VySWQiOjEwMTQ4MywiX2V4cGlyZSI6MTc1NjI1NjUyMDYwNSwiX21heEFnZSI6MjU5MjAwMDAwMDB9; koa:sess.sig=opTl26E1s1Xi7w4zaJkfwsCVa9A; _ga=GA1.2.1926169907.1729136487; _ga_CZFVKMNT9J=GS1.1.1731562164.4.0.1731562166.0.0.0")
+    # objArray.append(userZJD)
 
-    # 魏总
-    userWW = Model("weiwei","none","WangYingBo","")
-    # objArray.append(userWW)
-
-    # 第二个用户
-    user2 = Model("zidonj_163","none","WangYingBo","_ga=GA1.2.394654261.1632475281; _gid=GA1.2.960639332.1665626840; __cf_bm=H9lPCCW0yMJgwWOkk_FsUHUpxVpXTrvsie8EzKniYy0-1665626841-0-AVvrYePXOjkpNhX+VD67KrhhKrLpzk4/Ph5raTw/mx9wBpufMlNpvDCnkSEljlGYMWOkPXJQ2ehbSL/K+RmzjEzkmruWYXgMX1IlXbj7/cnooH2E+mOmBZlrM7DQp+7oeA==; koa:sess=eyJ1c2VySWQiOjEwMTQ4MywiX2V4cGlyZSI6MTY5MTU0Njk5ODA5MiwiX21heEFnZSI6MjU5MjAwMDAwMDB9; koa:sess.sig=p-K271rtzuN5-5UZzXKpaAH-v6M; _gat_gtag_UA_104464600_2=1")
-    # objArray.append(user2)
+    # yingbo_126
+    userYB126 = Model("yingbo_126","none","WangYingBo","koa:sess=eyJ1c2VySWQiOjEwMjE0MywiX2V4cGlyZSI6MTc2NzE0MjIxMjQyMSwiX21heEFnZSI6MjU5MjAwMDAwMDB9; koa:sess.sig=1lwozExu1dcu-jVqXPMk3I33P34")
+    objArray.append(userYB126)
 
     for obj in objArray:
         # sleep(0.5)
