@@ -11,6 +11,9 @@
 
 # 可参考 https://github.com/yonggekkk/acme-yg/blob/main/acme.sh 脚本里的 acmerenew 函数，配置服务器定时执行任务，实现定时手动续期
 
+
+# 青龙地址：http://129.148.39.121:5700
+
 # 王迎博
 curl "https://api.day.app/mg6Tt9Kc4ygnEcULyApRTG/请记得xui和sb脚本域名证书续期?url=safari://"
 
