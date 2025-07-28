@@ -42,7 +42,7 @@ check_res=$(curl -s 'https://zone.veloera.org/api/user/check_in' \
 echo "签到结果：$check_res"
 
 
-wcdesp=check_message=$(echo "$check_res" | jq -r '.message')
+wcdesp=$(echo "$check_res" | jq -r '.message')
 
 echo "企业微信开始推送了"
 echo $wcdesp
