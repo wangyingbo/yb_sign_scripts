@@ -29,7 +29,7 @@ VELOERA_USER="4759"
 
 
 
-check_message=$(curl -s 'https://zone.veloera.org/api/user/check_in' \
+check_res=$(curl -s 'https://zone.veloera.org/api/user/check_in' \
   -X POST \
   -H 'accept: application/json, text/plain, */*' \
   -H "cookie: $SESSION_COOKIE" \
@@ -39,10 +39,10 @@ check_message=$(curl -s 'https://zone.veloera.org/api/user/check_in' \
   -H 'user-agent: Mozilla/5.0')
 
 # 输出结果
-echo "签到结果：$check_message"
+echo "签到结果：$check_res"
 
 
-wcdesp=$check_message
+wcdesp=check_message=$(echo "$check_res" | jq -r '.message')
 
 echo "企业微信开始推送了"
 echo $wcdesp
