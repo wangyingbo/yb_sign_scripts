@@ -29,15 +29,27 @@ VELOERA_USER="4759"
 
 
 
-curl 'https://zone.veloera.org/api/user/check_in' \
+check_message=$(curl -s 'https://zone.veloera.org/api/user/check_in' \
   -X POST \
   -H 'accept: application/json, text/plain, */*' \
   -H "cookie: $SESSION_COOKIE" \
   -H "veloera-user: $VELOERA_USER" \
   -H 'origin: https://zone.veloera.org' \
   -H 'referer: https://zone.veloera.org/app/me' \
-  -H 'user-agent: Mozilla/5.0'
+  -H 'user-agent: Mozilla/5.0')
+
+# 输出结果
+echo "签到结果：$check_message"
 
 
+wcdesp=$check_message
+
+echo "企业微信开始推送了"
+echo $wcdesp
+
+wecomcontent="{\"msgtype\": \"1\",\"key\": \"4ours\",\"num\": \"1\",\"touser\": \"WangYingBo\",\"title\": \"zone.veloera.org\",\"content\": \"${wcdesp}\"}"
+echo $wecomcontent
+
+curl -H "Content-Type:application/json" -X POST --data "${wecomcontent}" http://129.148.39.121:5005/wechat
   
 
