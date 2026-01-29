@@ -32,8 +32,8 @@ def start():
     # Model("mail","sckey","none","cookie")
 
     # 第一个用户
-    userZJD = Model("zedong","none","WangYingBo","sess=eyJ1c2VySWQiOjEwMTQ4MywiX2V4cGlyZSI6MTc4NDAwOTMxMTc5NywiX21heEFnZSI6MjU5MjAwMDAwMDB9;")
-    # objArray.append(userZJD)
+    userZJD = Model("zedong","none","WangYingBo","sess=eyJ1c2VySWQiOjEwMTQ4MywiX2V4cGlyZSI6MTc4NDAwOTMxMTc5NywiX21heEFnZSI6MjU5MjAwMDAwMDB9;sess.sig=jd9bxV7jjb0mESYhfoEunO4Sx9c")
+    objArray.append(userZJD)
 
     # yingbo_126
     userYBgmail = Model("yingbo0528_gmail","none","WangYingBo","koa:sess=eyJ1c2VySWQiOjEwMTA1OSwiX2V4cGlyZSI6MTc5NTU3NDA0NjMzMSwiX21heEFnZSI6MjU5MjAwMDAwMDB9; koa:sess.sig=ahbjjvGg1lESmFIGvN51YFh0Tpg")
