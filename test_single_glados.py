@@ -33,11 +33,11 @@ def start():
 
     # 第一个用户
     userZJD = Model("zedong","none","WangYingBo","__stripe_mid=9a7bd424-66ba-4812-900c-a871fccb640e0dc722; koa:sess=eyJ1c2VySWQiOjEwMTQ4MywiX2V4cGlyZSI6MTc1NjI1NjUyMDYwNSwiX21heEFnZSI6MjU5MjAwMDAwMDB9; koa:sess.sig=opTl26E1s1Xi7w4zaJkfwsCVa9A; _ga=GA1.2.1926169907.1729136487; _ga_CZFVKMNT9J=GS1.1.1731562164.4.0.1731562166.0.0.0")
-    # objArray.append(userZJD)
+    objArray.append(userZJD)
 
     # yingbo_126
     userYB126 = Model("yingbo_126","none","WangYingBo","koa:sess=eyJ1c2VySWQiOjEwMjE0MywiX2V4cGlyZSI6MTc2NzE0MjIxMjQyMSwiX21heEFnZSI6MjU5MjAwMDAwMDB9; koa:sess.sig=1lwozExu1dcu-jVqXPMk3I33P34")
-    objArray.append(userYB126)
+    # objArray.append(userYB126)
 
     for obj in objArray:
         # sleep(0.5)
