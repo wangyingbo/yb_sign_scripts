@@ -31,7 +31,7 @@ def start():
     # Model("mail","sckey","wechatUserId","cookie")
 
     # 泽东
-    userJZD = Model("zidonj_163","none","WangYingBo","__stripe_mid=9a7bd424-66ba-4812-900c-a871fccb640e0dc722; koa:sess=eyJ1c2VySWQiOjEwMTQ4MywiX2V4cGlyZSI6MTc1NjI1NjUyMDYwNSwiX21heEFnZSI6MjU5MjAwMDAwMDB9; koa:sess.sig=opTl26E1s1Xi7w4zaJkfwsCVa9A; _ga=GA1.2.1926169907.1729136487; _ga_CZFVKMNT9J=GS1.1.1731562164.4.0.1731562166.0.0.0")
+    userJZD = Model("zidonj_163","none","WangYingBo","koa:sess=eyJ1c2VySWQiOjEwMTQ4MywiX2V4cGlyZSI6MTc5NTU3NTY4MDY4NCwiX21heEFnZSI6MjU5MjAwMDAwMDB9; koa:sess.sig=BdlurMNJtdVggjXE8GYUBPU6pK0")
     objArray.append(userJZD)
 
     # 魏总

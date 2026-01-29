@@ -32,7 +32,7 @@ def start():
     # Model("mail","sckey","none","cookie")
 
     # 第一个用户
-    userZJD = Model("zedong","none","WangYingBo","sess=eyJ1c2VySWQiOjEwMTQ4MywiX2V4cGlyZSI6MTc4NDAwOTMxMTc5NywiX21heEFnZSI6MjU5MjAwMDAwMDB9;sess.sig=jd9bxV7jjb0mESYhfoEunO4Sx9c")
+    userZJD = Model("zedong","none","WangYingBo","koa:sess=eyJ1c2VySWQiOjEwMTQ4MywiX2V4cGlyZSI6MTc5NTU3NTY4MDY4NCwiX21heEFnZSI6MjU5MjAwMDAwMDB9; koa:sess.sig=BdlurMNJtdVggjXE8GYUBPU6pK0")
     objArray.append(userZJD)
 
     # yingbo_126
