@@ -8,7 +8,7 @@ import requests ,os,json
 
 # server酱开关，填0不开启(默认)，填2同时开启cookie失效通知和签到成功通知
 sever = 'on'
-referer = 'https://glados.rocks/console/checkin'
+referer = 'https://glados.cloud/console/checkin'
 
 class Model:
 	def __init__(self,name,sckey,wcuser,cookie):
@@ -18,13 +18,13 @@ class Model:
 		self.cookie = cookie
 
 def start():  
-    url= "https://glados.rocks/api/user/checkin"
-    url2= "https://glados.rocks/api/user/status"
-    origin = "https://glados.rocks"
-    referer = "https://glados.rocks/console/checkin"
+    url= "https://glados.cloud/api/user/checkin"
+    url2= "https://glados.cloud/api/user/status"
+    origin = "https://glados.cloud"
+    referer = "https://glados.cloud/console/checkin"
     useragent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36"
     payload={
-        'token': 'glados.one'
+        'token': 'glados.cloud'
     }
         
     # -----------------------通过对象创建----------------------------------
@@ -32,12 +32,12 @@ def start():
     # Model("mail","sckey","none","cookie")
 
     # 第一个用户
-    userZJD = Model("zedong","none","WangYingBo","__stripe_mid=9a7bd424-66ba-4812-900c-a871fccb640e0dc722; koa:sess=eyJ1c2VySWQiOjEwMTQ4MywiX2V4cGlyZSI6MTc1NjI1NjUyMDYwNSwiX21heEFnZSI6MjU5MjAwMDAwMDB9; koa:sess.sig=opTl26E1s1Xi7w4zaJkfwsCVa9A; _ga=GA1.2.1926169907.1729136487; _ga_CZFVKMNT9J=GS1.1.1731562164.4.0.1731562166.0.0.0")
-    objArray.append(userZJD)
+    userZJD = Model("zedong","none","WangYingBo","sess=eyJ1c2VySWQiOjEwMTQ4MywiX2V4cGlyZSI6MTc4NDAwOTMxMTc5NywiX21heEFnZSI6MjU5MjAwMDAwMDB9;")
+    # objArray.append(userZJD)
 
     # yingbo_126
-    userYB126 = Model("yingbo_126","none","WangYingBo","koa:sess=eyJ1c2VySWQiOjEwMjE0MywiX2V4cGlyZSI6MTc2NzE0MjIxMjQyMSwiX21heEFnZSI6MjU5MjAwMDAwMDB9; koa:sess.sig=1lwozExu1dcu-jVqXPMk3I33P34")
-    # objArray.append(userYB126)
+    userYBgmail = Model("yingbo0528_gmail","none","WangYingBo","koa:sess=eyJ1c2VySWQiOjEwMTA1OSwiX2V4cGlyZSI6MTc5NTU3NDA0NjMzMSwiX21heEFnZSI6MjU5MjAwMDAwMDB9; koa:sess.sig=ahbjjvGg1lESmFIGvN51YFh0Tpg")
+    objArray.append(userYBgmail)
 
     for obj in objArray:
         # sleep(0.5)

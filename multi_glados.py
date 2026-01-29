@@ -7,7 +7,7 @@ from time import sleep
 
 # server酱开关，填0不开启(默认)，填2同时开启cookie失效通知和签到成功通知
 sever = 'on'
-referer = 'https://glados.rocks/console/checkin'
+referer = 'https://glados.cloud/console/checkin'
 
 class Model:
 	def __init__(self,name,sckey,wcuser,cookie):
@@ -17,13 +17,13 @@ class Model:
 		self.cookie = cookie
 
 def start():  
-    url= "https://glados.rocks/api/user/checkin"
-    url2= "https://glados.rocks/api/user/status"
-    origin = "https://glados.rocks"
-    referer = "https://glados.rocks/console/checkin"
+    url= "https://glados.cloud/api/user/checkin"
+    url2= "https://glados.cloud/api/user/status"
+    origin = "https://glados.cloud"
+    referer = "https://glados.cloud/console/checkin"
     useragent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36"
     payload={
-        'token': 'glados.one'
+        'token': 'glados.cloud'
     }
         
     # -----------------------通过对象创建----------------------------------
@@ -41,6 +41,10 @@ def start():
     # yingbo_126
     userYB126 = Model("yingbo_126","none","WangYingBo","koa:sess=eyJ1c2VySWQiOjEwMjE0MywiX2V4cGlyZSI6MTc2NzE0MjIxMjQyMSwiX21heEFnZSI6MjU5MjAwMDAwMDB9; koa:sess.sig=1lwozExu1dcu-jVqXPMk3I33P34")
     objArray.append(userYB126)
+
+    # yingbo_0528gmail
+    userYB0528gmail = Model("yingbo0528_gmail","none","WangYingBo","koa:sess=eyJ1c2VySWQiOjEwMTA1OSwiX2V4cGlyZSI6MTc5NTU3NDA0NjMzMSwiX21heEFnZSI6MjU5MjAwMDAwMDB9; koa:sess.sig=ahbjjvGg1lESmFIGvN51YFh0Tpg")
+    objArray.append(userYB0528gmail)
 
     for obj in objArray:
         sleep(1)
