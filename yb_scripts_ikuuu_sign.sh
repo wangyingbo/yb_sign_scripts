@@ -2,7 +2,7 @@
 # author: wangyingbo
 # date: 2022-11-28
 
-DOMAIN="https://ikuuu.nl"
+DOMAIN="https://ikuuu.win"
 USERNAME=""
 NICKNAME=""
 PASSWD=""
@@ -60,7 +60,8 @@ login=$(curl "${DOMAIN}/auth/login" -d "email=${USERNAME}&passwd=${PASSWD}&code=
 
 echo "---------"
 echo ${login}
- 
+echo "---------"
+
 date=$(date '+%Y-%m-%d %H:%M:%S')
 login_status=$(echo ${login} | jq '.msg')
 
