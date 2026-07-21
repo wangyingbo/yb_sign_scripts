@@ -56,7 +56,7 @@ def serverWechat(content):
     myContent = "恋爱通知：\n \n" + content
     message = {"key":"4ours","title":"hi","num":"1","msgtype":"1","content":myContent,"touser":toUser}
     # 1、post请求
-    r = requests.post("http://129.148.39.121:5005/wechat", data=json.dumps(message))
+    r = requests.post("http://164.152.109.194:5005/wechat", data=json.dumps(message))
     if r.status_code == 200:
         print('[+]企业微信已推送，请查收')
     
