@@ -33,7 +33,7 @@ def start():
 
     # 第一个用户
     userZJD = Model("zedong","none","WangYingBo","koa:sess=eyJ1c2VySWQiOjEwMTQ4MywiX2V4cGlyZSI6MTgwODczNDg5OTAyNywiX21heEFnZSI6MjU5MjAwMDAwMDB9; koa:sess.sig=VzeBCfrWMqlv076BHTz7hebSnko; gld:sess=gld_8ecabb54762ef73c0d1ac8e9c875dfa22a18f4cb78644575; gld:sess.sig=n_uHhSkqBWL-dmSZd6xbAnbWauY")
-    # objArray.append(userZJD)
+    objArray.append(userZJD)
 
     # yingbo_126
     userYBgmail = Model("yingbo0528_gmail","none","WangYingBo","koa:sess=eyJ1c2VySWQiOjEwMTA1OSwiX2V4cGlyZSI6MTgwOTMxNzI2NzU1MiwiX21heEFnZSI6MjU5MjAwMDAwMDB9; koa:sess.sig=X-Cm3htle1frCHbA4_XBYCKOt0o; gld:sess=gld_90408d6e0f42911b206596889c64c1ed6ce403d1d1443cea; gld:sess.sig=qXxwVMox_tmaIQpWKA-5ky8TW-g")
