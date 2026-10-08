@@ -33,10 +33,10 @@ def start():
 
     # 第一个用户
     userZJD = Model("zedong","none","WangYingBo","koa:sess=eyJ1c2VySWQiOjEwMTQ4MywiX2V4cGlyZSI6MTc5NTU3NTY4MDY4NCwiX21heEFnZSI6MjU5MjAwMDAwMDB9; koa:sess.sig=BdlurMNJtdVggjXE8GYUBPU6pK0")
-    objArray.append(userZJD)
+    # objArray.append(userZJD)
 
     # yingbo_126
-    userYBgmail = Model("yingbo0528_gmail","none","WangYingBo","koa:sess=eyJ1c2VySWQiOjEwMTA1OSwiX2V4cGlyZSI6MTc5NTU3NDA0NjMzMSwiX21heEFnZSI6MjU5MjAwMDAwMDB9; koa:sess.sig=ahbjjvGg1lESmFIGvN51YFh0Tpg")
+    userYBgmail = Model("yingbo0528_gmail","none","WangYingBo","koa:sess=eyJ1c2VySWQiOjEwMTA1OSwiX2V4cGlyZSI6MTgwOTMxNzI2NzU1MiwiX21heEFnZSI6MjU5MjAwMDAwMDB9; koa:sess.sig=X-Cm3htle1frCHbA4_XBYCKOt0o; gld:sess=gld_90408d6e0f42911b206596889c64c1ed6ce403d1d1443cea; gld:sess.sig=qXxwVMox_tmaIQpWKA-5ky8TW-g")
     objArray.append(userYBgmail)
 
     for obj in objArray:
