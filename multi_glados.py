@@ -30,8 +30,8 @@ def start():
     objArray = []
     # Model("mail","sckey","wechatUserId","cookie")
 
-    # 泽东
-    userJZD = Model("zidonj_163","none","WangYingBo","koa:sess=eyJ1c2VySWQiOjEwMTQ4MywiX2V4cGlyZSI6MTgwODczNDg5OTAyNywiX21heEFnZSI6MjU5MjAwMDAwMDB9; koa:sess.sig=VzeBCfrWMqlv076BHTz7hebSnko; gld:sess=gld_8ecabb54762ef73c0d1ac8e9c875dfa22a18f4cb78644575; gld:sess.sig=n_uHhSkqBWL-dmSZd6xbAnbWauY")
+    # 泽东 zidonj@163.com
+    userJZD = Model("zidonj_163","none","WangYingBo","koa:sess=eyJ1c2VySWQiOjEwMTQ4MywiX2V4cGlyZSI6MTgwODczNDg5OTAyNywiX21heEFnZSI6MjU5MjAwMDAwMDB9; koa:sess.sig=VzeBCfrWMqlv076BHTz7hebSnko; gld:sess=gld_0e2d23a4381767a09dd82cdfb0b7c9914fdaa3981a21fb8e; gld:sess.sig=qUi84PzZQZXqo_f5uNrMEIJRSz0")
     objArray.append(userJZD)
 
     # 魏总
@@ -43,7 +43,7 @@ def start():
     # objArray.append(userYB126)
 
     # yingbo_0528gmail
-    userYB0528gmail = Model("yingbo0528_gmail","none","WangYingBo","koa:sess=eyJ1c2VySWQiOjEwMTA1OSwiX2V4cGlyZSI6MTgwOTMxNzI2NzU1MiwiX21heEFnZSI6MjU5MjAwMDAwMDB9; koa:sess.sig=X-Cm3htle1frCHbA4_XBYCKOt0o; gld:sess=gld_90408d6e0f42911b206596889c64c1ed6ce403d1d1443cea; gld:sess.sig=qXxwVMox_tmaIQpWKA-5ky8TW-g")
+    userYB0528gmail = Model("yingbo0528_gmail","none","WangYingBo","koa:sess=eyJ1c2VySWQiOjEwMTA1OSwiX2V4cGlyZSI6MTgwOTMxNzI2NzU1MiwiX21heEFnZSI6MjU5MjAwMDAwMDB9; koa:sess.sig=X-Cm3htle1frCHbA4_XBYCKOt0o; gld:sess=gld_3f28125b2d3ee0d60e86a81f6a95b6206e949989390b644f; gld:sess.sig=sDUTp9Lw-sdieDs_stHtHUMyBXo")
     objArray.append(userYB0528gmail)
 
     for obj in objArray:
