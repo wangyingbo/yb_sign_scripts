@@ -35,7 +35,7 @@ def start():
     userZJD = Model("zedong","none","WangYingBo","koa:sess=eyJ1c2VySWQiOjEwMTQ4MywiX2V4cGlyZSI6MTgwODczNDg5OTAyNywiX21heEFnZSI6MjU5MjAwMDAwMDB9; koa:sess.sig=VzeBCfrWMqlv076BHTz7hebSnko; gld:sess=gld_0e2d23a4381767a09dd82cdfb0b7c9914fdaa3981a21fb8e; gld:sess.sig=qUi84PzZQZXqo_f5uNrMEIJRSz0")
     objArray.append(userZJD)
 
-    # yingbo_126
+    # yingbo_0528gmail
     userYBgmail = Model("yingbo0528_gmail","none","WangYingBo","koa:sess=eyJ1c2VySWQiOjEwMTA1OSwiX2V4cGlyZSI6MTgwOTMxNzI2NzU1MiwiX21heEFnZSI6MjU5MjAwMDAwMDB9; koa:sess.sig=X-Cm3htle1frCHbA4_XBYCKOt0o; gld:sess=gld_3f28125b2d3ee0d60e86a81f6a95b6206e949989390b644f; gld:sess.sig=sDUTp9Lw-sdieDs_stHtHUMyBXo")
     objArray.append(userYBgmail)
 
